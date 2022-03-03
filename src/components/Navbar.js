@@ -7,7 +7,6 @@ function Navbar() {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
 
-
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
@@ -52,7 +51,7 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/sign-up" className='nav-links-mobile' onClick={closeMobileMenu}>
+                            <Link to="" className='nav-links-mobile' onClick={closeMobileMenu}>
                                 RSVP
                             </Link>
                         </li>
