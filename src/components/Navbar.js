@@ -51,6 +51,11 @@ function Navbar() {
                                 Gallery
                             </Link>
                         </li>
+                        <li className="nav-item">
+                            <Link to="/sign-up" className='nav-links-mobile' onClick={closeMobileMenu}>
+                                RSVP
+                            </Link>
+                        </li>
                     </ul>
                     {button && <Button buttonStyle='btn--outline'>RSVP</Button>}
                 </div>
