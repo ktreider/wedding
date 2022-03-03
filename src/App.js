@@ -5,7 +5,6 @@ import Home from './components/pages/Home';
 import Details from './components/pages/Details';
 import Gallery from './components/pages/Gallery';
 import Footer from './components/Footer';
-import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
     <>
     <Router>
       <Navbar />
-      <ScrollToTop />
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path='/details' component={Details} />
