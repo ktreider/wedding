@@ -36,7 +36,7 @@ const Home = () => {
       
       <div className="rsvp">
           <div id="button">
-            <Button buttonStyle='btn--outline'>RSVP through The Knot here</Button>
+            <Button buttonStyle='btn--outline' buttonSize='btn--large'>RSVP through The Knot here</Button>
           </div>
       </div> {/*rsvp*/}
 
@@ -70,7 +70,7 @@ const Home = () => {
             <div className="loc ">
               <div>
                 <h3>St Mary Catholic Church</h3>
-                <p>The ceremony will be held at the beautiful St. Mary’s Church in Conshohocken, PA. It was founded in 1905 as a Polish Parish and is now under the pastoral care of the Priestly Fraternity of St Peter. \nThe church is 25 minutes from the Philly Airport. </p>
+                <p>The ceremony will be held at the beautiful St. Mary's Church in Conshohocken, PA. It was founded in 1905 as a Polish Parish and is now under the pastoral care of the Priestly Fraternity of St Peter. <br /> The church is 25 minutes from the Philly Airport. </p>
                 <a href="https://goo.gl/maps/vevFoeRrKYgLf6iT7" className="u" rel="noreferrer" target="_blank">140 W Hector Street, Conshohocken, PA</a>
               </div>
               

@@ -56,9 +56,6 @@
     display: flex;
     justify-content: center;
 }
-#button .btn {
-    font-weight: bold;
-}
 
 
 /*
@@ -97,14 +94,11 @@
 }
 .loc {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .loc * {
     padding: 2vw;
     border: none; /*for iframe*/
-}
-.loc iframe {
-    padding: 4vw;
 }
 .loc div {
     width: 50%;
