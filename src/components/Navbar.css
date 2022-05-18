@@ -1,5 +1,6 @@
 .navbar {
     background: var(--global--color-green);
+    opacity: .95;
     height: 80px;
     display: flex;
     justify-content: center;

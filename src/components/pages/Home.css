@@ -1,4 +1,6 @@
-
+.u:hover {
+     text-decoration: underline;
+}
 /*
 * Meet-section Styling
 *	==============================================
@@ -11,6 +13,7 @@
 .top > h1 {
     text-align: center;
     padding: 2vw 0;
+    font-weight: bold;
 }
 .meet {
     width: var(--responsive--aligndefault-width);
@@ -23,9 +26,15 @@
 .mid-img h6 {
     text-align: center;
 }
+.mid-img a {
+    color: var(--global--color-blue);
+}
 
 .left-side, .right-side {
     padding: 5vw;
+}
+.left-side h3, .right-side h3 {
+    font-weight: bold;
 }
 .left-side *, .right-side * {
     padding-top: 1vw;
@@ -50,6 +59,61 @@
 #button .btn {
     font-weight: bold;
 }
+
+
+/*
+* Ceremony & Reception Styling
+*	==============================================
+*/
+.banner {
+    background-color: var(--global--color-green);
+}
+.title {
+    text-align: center;
+    background-color: var(--global--color-dark-green);
+    color: white;
+    padding: 2vw 0;
+    font-style: italic;
+}
+.schedule {
+    background-color: var(--global--color-green);
+    color: white;
+}
+.sched-info {
+    width: calc( .9 * var(--responsive--aligndefault-width));
+    margin: auto;
+    padding: 3vw 0;
+    line-height: 1.5;
+}
+
+.locations {
+    background-color: var(--global--color-green);
+    color: white;
+}
+.flex-styling {
+    width: var(--responsive--aligndefault-width);
+    margin: auto;
+    padding: 2vw 0;
+}
+.loc {
+    display: flex;
+    justify-content: space-between;
+}
+.loc * {
+    padding: 2vw;
+    border: none; /*for iframe*/
+}
+.loc iframe {
+    padding: 4vw;
+}
+.loc div {
+    width: 50%;
+}
+.right {
+    flex-direction: row-reverse;
+}
+
+
 
 
 /*

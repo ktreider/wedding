@@ -14,9 +14,11 @@
 	font-weight: normal;
 }
 
+
 /* change all font families here */
-.top > h1, h3 {
+.top > h1, .title > h1, .left-side > h3, .right-side > h3, h4 {
   font-family: roboto-thinital;
+  font-weight: normal;
 }
 #button  {
   font-family: roboto
@@ -38,6 +40,7 @@
 	/* Colors */
   --global--color-green: #708D73;
   --global--color-blue: #092457;
+  --global--color-dark-green: #4D644F;
 
 }
 
@@ -77,7 +80,7 @@ h5 {font-size: var(--global--font-size-xxs);}
 /**
  * Responsive Styles | Root Media Query Variables
  *  ====================================================
- */
+*/
  :root {
 	--global--spacing-horizontal: 25px;
 
@@ -110,7 +113,17 @@ h5 {font-size: var(--global--font-size-xxs);}
 }
 
 
+a {
+  text-decoration: none;
+  color: white;
+}
+a:focus {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
 
+}
 
 
 
