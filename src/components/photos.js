@@ -1,15 +1,9 @@
 export const photos = [
     {
       src: require("../images/k_j/firstHike.JPG"),
-      width: 3,
+      width: 5,
       height: 4,
       title: "Our first hike and photo at Pulpit Rock"
-    },
-    {
-      src: require("../images/k_j/ricketts1.HEIC"),
-      width: 3,
-      height: 4,
-      title: "Ricketts Glen"
     },
     {
       src: require("../images/k_j/ricketts2.HEIC"),
@@ -19,7 +13,7 @@ export const photos = [
     },
     {
       src: require("../images/k_j/delGap.HEIC"),
-      width: 3,
+      width: 6,
       height: 4,
       title: "The Delaware Water Gap. Mount Minsi"
     },
@@ -37,7 +31,7 @@ export const photos = [
     },
     {
       src: require("../images/k_j/hawkRock.HEIC"),
-      width: 3,
+      width: 5,
       height: 4,
       title: "Hiking at Hawk Rock"
     },
@@ -48,20 +42,21 @@ export const photos = [
       title: "Ice hiking at Ricketts Glen with Valley to Summit"
     },
     {
-      src: require("../images/k_j/snowboarding.HEIC"),
-      width: 3,
-      height: 4,
-      title: "Joseph teaching Katie to snowboard"
-    },
-    {
       src: require("../images/k_j/garKnots.HEIC"),
       width: 3,
       height: 4,
       title: "Homemade garlic knots"
     },
     {
-      src: require("../images/k_j/boulders.HEIC"),
+      src: require("../images/k_j/snowboarding.HEIC"),
       width: 3,
+      height: 4,
+      title: "Joseph teaching Katie to snowboard"
+    },
+
+    {
+      src: require("../images/k_j/boulders.HEIC"),
+      width: 5,
       height: 4,
       title: "Roxanne but its just Rocks. -Boulder Field"
     },
@@ -73,7 +68,7 @@ export const photos = [
     },
     {
       src: require("../images/k_j/lehighGap.HEIC"),
-      width: 3,
+      width: 5,
       height: 4,
       title: "Lehigh Gap (the otherside)"
     },
@@ -91,15 +86,9 @@ export const photos = [
     },
     {
       src: require("../images/k_j/sumHike.jpg"),
-      width: 3,
+      width: 5,
       height: 4,
       title: "Hiking at Pole Steeple"
-    },
-    {
-      src: require("../images/k_j/ricketts1.HEIC"),
-      width: 3,
-      height: 4,
-      title: "Ricketts Glen"
     },
     {
       src: require("../images/engagementphotos/Katie1665.jpg"),
@@ -109,8 +98,8 @@ export const photos = [
     },
     {
       src: require("../images/engagementphotos/Katie1671.jpg"),
-      width: 3,
-      height: 4,
+      width: 4,
+      height: 6,
       title: "Photo taken by: Yajaira Perez Photography"
     },
     {
@@ -169,7 +158,7 @@ export const photos = [
     },
     {
       src: require("../images/k_j/ringingRocks.HEIC"),
-      width: 3,
+      width: 5,
       height: 4,
       title: "Ringing Rocks"
     },
@@ -197,5 +186,60 @@ export const photos = [
       height: 4,
       title: "Joseph at Green Lane"
     },
+    {
+      src: require("../images/k_j/dumplings.HEIC"),
+      width: 5,
+      height: 4,
+      title: "Joseph making dumplings"
+    },
+    {
+      src: require("../images/k_j/formal1.HEIC"),
+      width: 3,
+      height: 4,
+      title: "Katie's college formal"
+    },
+    {
+      src: require("../images/k_j/formal3.HEIC"),
+      width: 5,
+      height: 4,
+      title: "Katie's college formal"
+    },
+    {
+      src: require("../images/k_j/formal2.HEIC"),
+      width: 3,
+      height: 4,
+      title: "Katie's college formal"
+    },
+
+    {
+      src: require("../images/k_j/confirm.HEIC"),
+      width: 7,
+      height: 5,
+      title: "Joseph, Katie, and her friend Genevieve"
+    },
+    {
+      src: require("../images/k_j/trexler.HEIC"),
+      width: 6,
+      height: 4,
+      title: "Joseph and Katie at the Trexler Nature Preserve"
+    },
+    {
+      src: require("../images/k_j/blueCake.HEIC"),
+      width: 3,
+      height: 4,
+      title: "A Blueberry filling cake with lemon icing!"
+    },
+    {
+      src: require("../images/k_j/sunset.HEIC"),
+      width: 5,
+      height: 4,
+      title: "Chasing sunsets on campus"
+    },
+    {
+      src: require("../images/k_j/ziti.jpg"),
+      width: 3,
+      height: 4,
+      title: "Katie waiting for the over to preheat for baked ziti"
+    }
   ];
   

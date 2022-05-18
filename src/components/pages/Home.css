@@ -1,4 +1,100 @@
-.meet {
-    padding: 20vw;
+
+/*
+* Meet-section Styling
+*	==============================================
+*/
+.top {
     background: white;
+    padding: 2vw;
+    color: var(--global--color-blue);
 }
+.top > h1 {
+    text-align: center;
+    padding: 2vw 0;
+}
+.meet {
+    width: var(--responsive--aligndefault-width);
+    margin: auto;
+    display: flex;
+}
+.mid-img img {
+    width: 20vw;
+}
+.mid-img h6 {
+    text-align: center;
+}
+
+.left-side, .right-side {
+    padding: 5vw;
+}
+.left-side *, .right-side * {
+    padding-top: 1vw;
+}
+
+
+
+/*
+* RSVP Styling
+*	==============================================
+*/
+.rsvp {
+    background-color: var(--global--color-green);
+}
+#button {
+    width: var(--responsive--aligndefault-width);
+    margin: auto;
+    padding: 5vw;
+    display: flex;
+    justify-content: center;
+}
+#button .btn {
+    font-weight: bold;
+}
+
+
+/*
+* Tablet View (below 900px)
+*	==============================================
+*/
+@media only screen and (max-width: 900px) {
+
+	.meet {
+		width: calc( .865 * var(--responsive--aligndefault-width));
+		margin: auto;
+    } 
+    .left-side, .right-side {
+        padding: 1.5vw;
+    }
+    #button {
+        padding: 7vw;
+    }
+
+}
+
+/*
+* Mobile View (below 600px)
+*	==============================================
+*/
+@media only screen and (max-width: 600px) {
+	
+	.meet {
+		width: calc( .9 * var(--responsive--aligndefault-width));
+		margin: auto;
+        flex-direction: column;
+	}
+    .mid-img {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #button {
+        padding: 10vw;
+    }
+
+
+}
+
+
+
+

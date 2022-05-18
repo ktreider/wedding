@@ -1,4 +1,9 @@
 @font-face {
+	font-family: roboto;
+	src: url('./fonts/roboto/Roboto-Regular.ttf');
+	font-weight: normal;
+}
+@font-face {
 	font-family: roboto-thin;
 	src: url('./fonts/roboto/Roboto-Thin.ttf');
 	font-weight: normal;
@@ -9,6 +14,110 @@
 	font-weight: normal;
 }
 
+/* change all font families here */
+.top > h1, h3 {
+  font-family: roboto-thinital;
+}
+#button  {
+  font-family: roboto
+}
+
+
+/* bring in basic styling */
+/* Variables */
+:root {
+	/* Font Size */
+	--global--font-size-xxs: .5vw;
+	--global--font-size-xs: 1vw;
+	--global--font-size-s: 1.5vw;
+	--global--font-size-m: 2vw;
+	--global--font-size-lg: 2.25vw;
+	--global--letter-spacing: normal;
+
+    
+	/* Colors */
+  --global--color-green: #708D73;
+  --global--color-blue: #092457;
+
+}
+
+/* 
+* all font sizes. h6 excluded 
+*	==============================================
+*/ 
+h1 {font-size: var(--global--font-size-lg);}
+h2 {font-size: var(--global--font-size-m);}
+h3 {font-size: var(--global--font-size-s);}
+h4, p, .btn {font-size: var(--global--font-size-xs);}
+h5 {font-size: var(--global--font-size-xxs);}
+
+
+/* tablet and mobile font-sizing */
+@media only screen and (max-width: 900px) {
+	:root {
+		/* Font Sizes */
+		--global--font-size-xxs: 1.5vw;
+		--global--font-size-xs: 2vw;
+		--global--font-size-s: 2.5vw;
+		--global--font-size-m: 3vw;
+		--global--font-size-lg: 3.25vw;
+	}
+}
+@media only screen and (max-width: 600px) {
+	:root {
+		/* Font Sizes */
+		--global--font-size-xxs: 2.5vw;
+		--global--font-size-xs: 3vw;
+		--global--font-size-s: 3.5vw;
+		--global--font-size-m: 4vw;
+		--global--font-size-lg: 4.25vw;
+	}
+}
+
+/**
+ * Responsive Styles | Root Media Query Variables
+ *  ====================================================
+ */
+ :root {
+	--global--spacing-horizontal: 25px;
+
+	--responsive--spacing-horizontal: calc(2 * var(--global--spacing-horizontal) * 0.6);
+	--responsive--aligndefault-width: calc(100vw - var(--responsive--spacing-horizontal));
+	--responsive--alignwide-width: calc(100vw - var(--responsive--spacing-horizontal));
+	--responsive--alignfull-width: 100%;
+}
+
+@media only screen and (min-width: 200px) {
+
+	:root {
+		--responsive--aligndefault-width: min(calc(100vw - 4 * var(--global--spacing-horizontal)), 699px); 
+		--responsive--alignwide-width: calc(100vw - 4 * var(--global--spacing-horizontal));
+	}
+}
+@media only screen and (min-width: 700px) {
+
+	:root {
+		--responsive--aligndefault-width: min(calc(115vw - 8 * var(--global--spacing-horizontal)), 999px); 
+		--responsive--alignwide-width: min(calc(115vw - 8 * var(--global--spacing-horizontal)), 999px); 
+	}
+}
+@media only screen and (min-width: 1200px) {
+
+	:root {
+		--responsive--aligndefault-width: min(calc(105vw - 10 * var(--global--spacing-horizontal)), 2250px); 
+		--responsive--alignwide-width: min(calc(105vw - 10 * var(--global--spacing-horizontal)), 2250px); 
+	}
+}
+
+
+
+
+
+
+/*
+* React Styling
+*	==============================================
+*/
 * {
   box-sizing: border-box;
   margin: 0;

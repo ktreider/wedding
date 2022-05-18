@@ -1,5 +1,5 @@
 .navbar {
-    background: #708D73;
+    background: var(--global--color-green);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@
   .navbar-logo {
     color: #fff;
     justify-self: start;
-    margin-left: 20px;
+    margin-left: .5vw;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
