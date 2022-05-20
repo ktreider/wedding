@@ -41,6 +41,9 @@
   --global--color-green: #708D73;
   --global--color-blue: #092457;
   --global--color-dark-green: #4D644F;
+  --global--color-dblue: #32436F;
+  --global--color-dark-blue: rgba(9, 36, 87, .75);
+  
 
 }
 
@@ -107,8 +110,8 @@ h5 {font-size: var(--global--font-size-xxs);}
 @media only screen and (min-width: 1200px) {
 
 	:root {
-		--responsive--aligndefault-width: min(calc(105vw - 10 * var(--global--spacing-horizontal)), 2250px); 
-		--responsive--alignwide-width: min(calc(105vw - 10 * var(--global--spacing-horizontal)), 2250px); 
+		--responsive--aligndefault-width: min(calc(95vw - 10 * var(--global--spacing-horizontal)), 2250px); 
+		--responsive--alignwide-width: min(calc(95vw - 10 * var(--global--spacing-horizontal)), 2250px); 
 	}
 }
 

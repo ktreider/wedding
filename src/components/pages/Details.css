@@ -1,0 +1,52 @@
+.details {
+    background-color: white;
+    color: white;
+}
+.accomodations, .wedding-party, .menu, .other {
+    background-color: var(--global--color-dark-blue);
+    padding: 3vw 0 0 0;
+}
+.banner.details, .details .title {
+    background-color: var(--global--color-dblue);
+}
+.hotels, .information {
+    width: var(--responsive--aligndefault-width);
+    margin: auto;
+    padding: 1vw 0; 
+}
+.people {
+    width: var(--responsive--aligndefault-width);
+    margin: auto;
+    display: flex;
+    padding: 2vw 0;
+}
+.girls, .guys {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.small-img {
+    height: 15vw;
+    width: 11.5vw;
+    object-fit: cover;
+}
+.person-img {
+    display: flex;
+    align-items: center;
+}
+.person-img img {
+    padding: 1vw;
+}
+
+
+.food {
+    background-color: var(--global--color-green);
+    width: var(--responsive--aligndefault-width);
+    margin: auto;
+    padding: 4vw;
+}
+.menu {
+    padding-bottom: 3vw;
+}
+
+
