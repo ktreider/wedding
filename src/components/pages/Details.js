@@ -30,7 +30,7 @@ const Details = () => {
           </div> {/*details-banner*/}
 
           <div className="hotels">
-            <Blurb title="Hotel Name" address="Address Line. labore et dolore magna aliqua." text="We got a block rate discount at Hotel Name. ... You can find them halfway between Conshohocken and Quakertown. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+            <Blurb title="Hotel Name" link="http://hotel.com" address="Address Line. labore et dolore magna aliqua." text="We got a block rate discount at Hotel Name. ... You can find them halfway between Conshohocken and Quakertown. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
             <Blurb title="Hotel Name" address="Address Line. labore et dolore magna aliqua." text="We got a block rate discount at Hotel Name. ... You can find them halfway between Conshohocken and Quakertown. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
             <Blurb title="Parking Garage (Conshohocken)" address="Address Line. labore et dolore magna aliqua." text="There is a parking garage near the church we can use. ... You can find it in Conshohocken a street over from the church. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
 
