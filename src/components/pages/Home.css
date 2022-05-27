@@ -110,6 +110,10 @@
 
 
 
+.hom {
+    background-color: var(--global--color-green);
+}
+
 
 /*
 * Tablet View (below 900px)

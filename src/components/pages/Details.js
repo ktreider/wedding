@@ -31,7 +31,7 @@ const Details = () => {
               </div> 
           </div> {/*details-banner*/}
 
-          <p id="misc">Find the following hotels half way in between Conshohocken and Quakertown and under and hour from the Philadelphia International Airport (PHL).</p>
+          <p id="misc">Find the following hotels halfway  between Conshohocken and Quakertown and under an hour from the Philadelphia International Airport (PHL).</p>
           <div className="hotels">
             <Blurb title="Quality Inn & Suites Quakertown-Allentown" link="https://www.choicehotels.com/pennsylvania/quakertown/quality-inn-hotels/pa164?mc=llgoxxpx" linkTitle="More Information Here" text="1905 John Fries Hwy, Quakertown, PA 18951" />
             <Blurb title="Hampton Inn Quakertown" link="https://www.hilton.com/en/hotels/quapahx-hampton-quakertown/?SEO_id=GMB-AMER-HX-QUAPAHX&y_source=1_MjA4Mjc4MC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D" linkTitle="More Information Here" text="1915 John Fries Hwy, Quakertown, PA 18951"/>
@@ -56,19 +56,19 @@ const Details = () => {
             <div className="girls">
               <div className="person-img">
                 <img className="small-img" src={eli} alt='Elizabeth'/>
-                <Blurb title="Elizabeth Morgan" subtitle="Maid of Honor"  text="Katie and Elizabeth lived together in their first years of college. Even after changing schools, Elizabeth never fails to keep in contact and send Katie funny videos." />
+                <Blurb title="Elizabeth Morgan" subtitle="Maid of Honor"  text="Katie and Elizabeth lived together in their first years of college. Even after changing schools, they never fail to keep in contact and Elizabeth always sends Katie funny videos." />
               </div>
               <div className="person-img">
                 <img className="small-img" src={GE} alt='Genevieve'/>
-                <Blurb title="Genevieve Emanuel" subtitle="Bridesmaid" text="Genevieve and Katie also lived together in college. They love to sit and chat for hours about anything and everything. " />
+                <Blurb title="Genevieve Emanuel" subtitle="Bridesmaid" text="Genevieve and Katie also lived together in college. They love to sit and chat for hours about anything and everything." />
               </div>              
               <div className="person-img">
                 <img className="small-img" src={Geva} alt='Geneva'/>
-                <Blurb title="Geneva Dardick" subtitle="Bridesmaid" text="Katie and Geneva met at their side hobby, dance class! After lots of classes and dance concerts together, Katie decided she basically lives at the Dardick's house.  " />
+                <Blurb title="Geneva Dardick" subtitle="Bridesmaid" text="Katie and Geneva met at their side hobby, dance class! After lots of classes and dance concerts together, Katie decided she basically lives at the Dardick's house." />
               </div>
               <div className="person-img">
                 <img className="small-img" src={shea} alt='Shea'/>
-                <Blurb title="Shea Elliott" subtitle="Bridesmaid" text="Shea met Katie at the beginning of their college careers. Through thick and thin, they've kept a strong friendship.  " />
+                <Blurb title="Shea Elliott" subtitle="Bridesmaid" text="Shea met Katie at the beginning of their college careers. Shea enjoys taking Katie to her local library's booksale.  " />
               </div>
             </div> {/*girls*/}
 
@@ -163,6 +163,20 @@ const Details = () => {
 
       </div> {/*details*/}
 
+      <div id="waves">
+        <svg class="waves det" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto" >
+        <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+        <use xlinkHref="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+        <use xlinkHref="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+        <use xlinkHref="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+        <use xlinkHref="#gentle-wave" x="48" y="7" fill="#fff" />
+        </g>
+        </svg>
+      </div>
 
     </>
   )
