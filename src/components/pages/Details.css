@@ -6,14 +6,38 @@
     background-color: var(--global--color-dark-blue);
     padding: 3vw 0 0 0;
 }
-.banner.details, .details .title {
+.banner.details, .banner.details .title {
     background-color: var(--global--color-dblue);
+}
+.accomodations #misc{
+    width: var(--responsive--aligndefault-width);
+    margin: auto;
+    text-align: center;
+    padding-top: 1vw;
 }
 .hotels, .information {
     width: var(--responsive--aligndefault-width);
     margin: auto;
     padding: 1vw 0; 
 }
+.hotels {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hotels .blurb-container {
+    width: 30vw;
+    padding: 1vw;
+}
+.hotels .blurb-container a {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 3px;
+}
+.hotels .blurb-container a:hover {
+    text-decoration: none;
+    color: #b6b6b6;
+}
+
 .people {
     width: var(--responsive--aligndefault-width);
     margin: auto;
@@ -30,6 +54,10 @@
     width: 11.5vw;
     object-fit: cover;
 }
+.map-img {
+    height: 20vw;
+    width: 30vw;
+}
 .person-img {
     display: flex;
     align-items: center;
@@ -43,10 +71,19 @@
     background-color: var(--global--color-green);
     width: var(--responsive--aligndefault-width);
     margin: auto;
-    padding: 4vw;
+    padding: 4vw 0;
 }
 .menu {
     padding-bottom: 3vw;
 }
+.food .title {
+    text-align: left;
+    padding-left: 1vw;
+}
 
-
+.menus {
+    display: flex;
+}
+#food {
+    width: 45%;
+}

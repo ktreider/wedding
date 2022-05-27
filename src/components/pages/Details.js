@@ -13,6 +13,8 @@ import mike from './../../images/peeps/mike.jpg';
 import shea from './../../images/peeps/shea.jpg';
 import tony from './../../images/peeps/tony.jpg';
 
+import maryParking from './../../images/maryParking3.png';
+
 const Details = () => {
   return (
     <>
@@ -29,10 +31,12 @@ const Details = () => {
               </div> 
           </div> {/*details-banner*/}
 
+          <p id="misc">Find the following hotels half way in between Conshohocken and Quakertown and under and hour from the Philadelphia International Airport (PHL).</p>
           <div className="hotels">
-            <Blurb title="Hotel Name" link="http://hotel.com" address="Address Line. labore et dolore magna aliqua." text="We got a block rate discount at Hotel Name. ... You can find them halfway between Conshohocken and Quakertown. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
-            <Blurb title="Hotel Name" address="Address Line. labore et dolore magna aliqua." text="We got a block rate discount at Hotel Name. ... You can find them halfway between Conshohocken and Quakertown. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
-            <Blurb title="Parking Garage (Conshohocken)" address="Address Line. labore et dolore magna aliqua." text="There is a parking garage near the church we can use. ... You can find it in Conshohocken a street over from the church. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+            <Blurb title="Quality Inn & Suites Quakertown-Allentown" link="https://www.choicehotels.com/pennsylvania/quakertown/quality-inn-hotels/pa164?mc=llgoxxpx" linkTitle="More Information Here" text="1905 John Fries Hwy, Quakertown, PA 18951" />
+            <Blurb title="Hampton Inn Quakertown" link="https://www.hilton.com/en/hotels/quapahx-hampton-quakertown/?SEO_id=GMB-AMER-HX-QUAPAHX&y_source=1_MjA4Mjc4MC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D" linkTitle="More Information Here" text="1915 John Fries Hwy, Quakertown, PA 18951"/>
+            <Blurb title="Springhill Suites by Marriott Quakertown" link="https://www.marriott.com/en-us/hotels/uktsh-springhill-suites-quakertown/overview/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_MjgxODYyNC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D" linkTitle="More Information Here" text="1930 John Fries Hwy, Quakertown, PA 18951"/>
+            <Blurb title="Holiday Inn Express & Suites Quakertown" link="https://www.ihg.com/holidayinnexpress/hotels/us/en/quakertown/qktpa/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-US-_-QKTPA" linkTitle="More Information Here" text="1918 John Fries Hwy, Quakertown, PA 18951"/>
 
           </div> {/*hotels*/}
 
@@ -92,7 +96,41 @@ const Details = () => {
 
         <div className="menu">
           <div className="food">
+            <div className="banner">
+                <div className="title">
+                  <h3>Food & Bar Menu</h3>
+                </div> 
+            </div> {/*banner*/}
 
+
+            <div className="schedule">
+              <div className="sched-info menus">
+                <div id="food">
+                  <h3>Food</h3>
+                  <p>Appetizers</p>
+                  <h4>Flatbread pizza slices</h4>
+                  <h4>Pita and Hummus</h4>
+                  
+                  <br/>
+                  <p>Main</p>
+                  <h4>Pulled Pork</h4>
+                  <h4>Beef Brisket</h4>
+                  <h4>Greek Salad</h4>
+                  <h4>Macaroni and Cheese</h4>
+                  <h4>Street Corn</h4>
+                </div>
+                <div>
+                  <h3>Bar</h3>
+                  <p>Note: There will be a select menu of wine, beer, and Katie & Joseph each have a specialty drink for guests to enjoy. Other drink options are available to purchase.</p>
+                  <br/>
+                  <h4>Katie: Red Coat (gin and tonic)</h4>
+                  <br/>
+                  <h4>Joseph: Horse Thief (like a long island)</h4>
+                </div>
+              </div> {/*sched-info*/}
+            </div> {/*schedule*/}
+
+            
           </div> {/*food*/}
         </div> {/*menu*/}
 
@@ -106,12 +144,17 @@ const Details = () => {
           </div> {/*details-banner*/}
 
           <div className="information">
-            <Blurb title="What to wear" text="Out of the respect for our Lord, the Bride and Groom request that guests dress modestly in the style required at St. Peter's Basilica in Rome: namely, that the shoulders and knees are covered for both men and women, with no form fitting clothing or revealing necklines." />
-            <Blurb title="Note about the ceremony **IMPORTANT**" text="Latin, communion (& how it works), timewise, etc.  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. We left plenty of time in between the ceremony and reception for travel since we know it will be a little longer of a drive! Thanks :)" />
-            <Blurb title="Note on transportation & parking" text="Try carpooling! While there is a parking garage near the church for the ceremony, the Trolley Barn has limited parking. The Trolley Barn also is attached to a little market, so the public will be occupying the parking lots during the day. " />
+            <Blurb title="What should I wear?" text="Out of the respect for our Lord, the Bride and Groom request that guests dress modestly in the style required at St. Peter's Basilica in Rome: namely, that the shoulders and knees are covered for both men and women, with no form fitting clothing or revealing necklines." />
+            <Blurb title="When is the RSVP deadline?" text="Please RSVP by September 1st, 2022 so we can be best prepared to celebrate with you!" />
+            <Blurb title="Can I bring a date?" text="We unfortunately cannot accommodate additional guests. Due to limited capacity at the reception, we can only allow the people named on the RSVP." />
+            <Blurb title="Note about the Ceremony & Mass **IMPORTANT**" text="Following the ceremony there will be a Nuptial Mass in the Extraordinary form of the Roman Rite. Prayers, responses, and hymns will be said in Latin. The church will have booklets for all attendees so that they may follow along with this beautiful form of the Catholic Liturgy. The expected length of the ceremony and Mass together is about two hours. We left time in between the ceremony and reception for travel since we know it will be a little longer of a drive! Thanks :)" />
+            <Blurb title="Additional note about the Mass **Communion**" text="Since the ceremony will be followed by Mass, Holy Communion will be available. Attendants are reminded that only practicing Catholics in a state of grace may recieve Communion. In the Extraordinary Form, communion is received on the tongue at the altar rail. To properly receive, please kneel at the rail (if able) and close your eyes before the priest comes to you." />
+            <Blurb title="Where can I park?" text="The church has a small parking lot off of Maple, and there is a parking garage on the corner of Hector and Robinson Alley. Try carpooling! Especially for the reception. While there is a parking garage near the church for the ceremony, the Trolley Barn has limited parking in their own lot and there is no close parking garage. The Trolley Barn has a little market alongside their event spaces, so the public will also be occupying the parking lots during the day." />
+            <img className="map-img" src={maryParking} alt="Parking Map"/>
+            <Blurb title="Is there a gift registry?" text="There is not a specific gift registry. Your presence at our wedding is a gift in in itself, but if you feel inclined to give more, please contribute in the best way you see fit! Below is a little more about us if you're looking for something special." />
+            <Blurb title="More about Katie & Joseph" text=" We love to do many things together in our free time at home or traveling. We love anything outdoors, and will take walks in the neighborhood or hit the trails for a hike! We try and visit the best trails with waterfalls, scenic overlooks, or lots of rocks to climb. On days we are feeling lazy, or it is just too cold out for a hike, we love to cook! From homemade pierogies to gnocchi to fresh sorbet or even homemade bread, we love to try something new. Katie adores plants and flowers and has even started to press them into art! Joseph loves to go biking, play video games, and code!"/>
             <Blurb title="Sharing photos" text="Katie adores looking back at fond memories, so be sure to share photos from our wedding day! We are thinking of starting a hashtag if you want to tag on instagram! Check back here for the hashtag closer to the big day. " />
-            <Blurb title="Registry note & more about Katie & Joseph" text="Katie & Joseph love to do many thing together in their free time. We love the outdoors, and will take walks in the neighborhood or hit the trails for a hike! We try and hit the good trails with waterfalls, scenic overlooks, or lots of rocks. On days we are feeling lazy, or it is just too cold out for a hike, we love to cook! From homade pierogies to gnocchi to fresh sorbet, we love to try something new. " />
-
+            <br/><br/>
           </div> {/*information*/}
 
         </div> {/*other*/}

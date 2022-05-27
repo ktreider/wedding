@@ -8,8 +8,7 @@ function Blurb(props) {
             <h3>{props.title}</h3>
             <h4>{props.subtitle}</h4>
             <p>{props.text}</p>
-            <br/>
-            <h4><a href={props.link} className="u">{props.address}</a></h4>
+            <h4><a href={props.link} className="u" target="_blank" rel="noreferrer">{props.linkTitle}</a></h4>
         </div>
     )
 }
