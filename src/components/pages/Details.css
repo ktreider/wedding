@@ -140,3 +140,69 @@
     min-height:40px;
   }
 }
+
+
+/*
+* Tablet View (below 900px)
+*	==============================================
+*/
+@media only screen and (max-width: 900px) {
+    .hotels {
+        flex-direction: column;
+    }
+    .hotels .blurb-container {
+        width: unset;
+        padding: 2vw 0;
+        text-align: center;
+    }
+    .hotels, #misc, .people, .information {
+        width: calc( .85 * var(--responsive--aligndefault-width));
+    }
+    .people {
+        flex-direction: column;
+    }
+    .girls, .guys {
+        width: unset;
+    }
+    .small-img {
+        height: 25vw;
+        width: 19.5vw;
+    }
+    .menus {
+        flex-direction: column;
+    }
+    #food {
+        width: unset;
+        padding-bottom: 5vw;
+    }
+    .map-img {
+        height: 40vw;
+        width: 50vw;
+    }
+
+}
+
+/*
+* Mobile View (below 600px)
+*	==============================================
+*/
+@media only screen and (max-width: 600px) {
+	.hotels, #misc, .people, .information {
+        width: calc( 1.05 * var(--responsive--aligndefault-width));
+    }
+    .small-img {
+        height: 35vw;
+        width: 26.5vw;
+    }
+    .food {
+        width: unset;
+    }
+    .food .title {
+        padding-left: 7vw;
+    }
+    .map-img {
+        height: 55vw;
+        width: 80vw;
+    }
+
+}

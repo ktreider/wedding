@@ -54,8 +54,8 @@
 h1 {font-size: var(--global--font-size-lg);}
 h2 {font-size: var(--global--font-size-m);}
 h3 {font-size: var(--global--font-size-s);}
-h4, p, .btn {font-size: var(--global--font-size-xs);}
-h5 {font-size: var(--global--font-size-xxs);}
+h4, p, .btn, a {font-size: var(--global--font-size-xs);}
+h5, h6, h6 a {font-size: var(--global--font-size-xxs);}
 
 
 /* tablet and mobile font-sizing */

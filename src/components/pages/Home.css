@@ -108,7 +108,10 @@
     flex-direction: row-reverse;
 }
 
-
+iframe {
+    height: 30vw;
+    width: 40vw;
+}
 
 .hom {
     background-color: var(--global--color-green);
@@ -122,15 +125,44 @@
 @media only screen and (max-width: 900px) {
 
 	.meet {
-		width: calc( .865 * var(--responsive--aligndefault-width));
+		width: calc( .85 * var(--responsive--aligndefault-width));
 		margin: auto;
-    } 
+        flex-direction: column;
+	}
+    .top {
+        padding-bottom: 4vw;
+    }
+    .mid-img {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+    }
+    .mid-img img {
+        width: 30vw;
+    }
     .left-side, .right-side {
-        padding: 1.5vw;
+        padding: 2vw 1.5vw;
     }
     #button {
         padding: 7vw;
     }
+    .flex-styling, .sched-info {
+        width: calc( .85 * var(--responsive--aligndefault-width));
+    }
+    .loc {
+        flex-direction: column;
+    }
+    .loc div {
+        width: 100%;
+    }
+    .loc * {
+        padding: 2vw 0;
+    }
+    iframe {
+        height: 40vw;
+        width: 50vw;
+    }
+    
 
 }
 
@@ -140,21 +172,24 @@
 */
 @media only screen and (max-width: 600px) {
 	
-	.meet {
-		width: calc( .9 * var(--responsive--aligndefault-width));
-		margin: auto;
-        flex-direction: column;
+	.meet, .sched-info, .flex-styling {
+		width: calc( 1.05 * var(--responsive--aligndefault-width));
 	}
-    .mid-img {
-        display: flex; 
-        flex-direction: column;
-        align-items: center;
-    }
-
     #button {
         padding: 10vw;
     }
+    .mid-img img {
+        width: 45vw;
+    }
+    .left-side, .right-side {
+        padding: 5vw 1.5vw;
+    }
 
+    iframe {
+        height: 55vw;
+        width: 65vw;
+    }
+    
 
 }
 

@@ -74,7 +74,7 @@ const Home = () => {
                 <a href="https://goo.gl/maps/vevFoeRrKYgLf6iT7" className="u" rel="noreferrer" target="_blank">140 W Hector Street, Conshohocken, PA</a>
               </div>
               
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3053.066046161117!2d-75.30993858929499!3d40.073938849874054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6be43733fa251%3A0x437e07142ff275a!2s140%20W%20Hector%20St%2C%20Conshohocken%2C%20PA%2019428!5e0!3m2!1sen!2sus!4v1652896538695!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="st marys"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3053.066046161117!2d-75.30993858929499!3d40.073938849874054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6be43733fa251%3A0x437e07142ff275a!2s140%20W%20Hector%20St%2C%20Conshohocken%2C%20PA%2019428!5e0!3m2!1sen!2sus!4v1652896538695!5m2!1sen!2sus"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="st marys"></iframe>
             </div> {/*loc*/}
 
             <div className="loc right">
@@ -84,7 +84,7 @@ const Home = () => {
                 <a href="https://goo.gl/maps/6BmbQtisx7jhzVRd7" className="u" rel="noreferrer" target="_blank">116 E Broad Street, Quakertown, PA</a>
               </div>
                 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.54695903798!2d-75.3383234695933!3d40.44102959608636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c418a26cd4749f%3A0x5a21bd6df6a53212!2s116%20E%20Broad%20St%2C%20Quakertown%2C%20PA%2018951!5e0!3m2!1sen!2sus!4v1652897372426!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="trolley barn"></iframe>            
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.54695903798!2d-75.3383234695933!3d40.44102959608636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c418a26cd4749f%3A0x5a21bd6df6a53212!2s116%20E%20Broad%20St%2C%20Quakertown%2C%20PA%2018951!5e0!3m2!1sen!2sus!4v1652897372426!5m2!1sen!2sus"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="trolley barn"></iframe>            
               </div> {/*loc*/}
 
           </div> {/*flex-styling*/}

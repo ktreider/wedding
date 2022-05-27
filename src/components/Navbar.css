@@ -93,9 +93,12 @@
       opacity: 1;
       transition: all 0.5s ease;
     }
+    .navbar-logo {
+      font-size: 1.7rem;
+    }
   
     .nav-menu.active {
-      background: rgba(96, 128, 99, .9);
+      background: rgba(96, 128, 99, 1);
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
