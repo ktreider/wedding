@@ -121,7 +121,7 @@ const Details = () => {
                 </div>
                 <div>
                   <h3>Bar</h3>
-                  <p>Note: There will be a select menu of wine, beer, and Katie & Joseph each have a specialty drink for guests to enjoy. Other drink options are available to purchase.</p>
+                  <p>Note: Katie & Joseph each have a specialty drink for guests to enjoy. There will also be a select menu of wine and beer. Other drinks will be available, but must be purchased.</p>
                   <br/>
                   <h4>Katie: Red Coat (gin and tonic)</h4>
                   <br/>
@@ -148,7 +148,7 @@ const Details = () => {
             <Blurb title="When is the RSVP deadline?" text="Please RSVP by September 1st, 2022 so we can be best prepared to celebrate with you!" />
             <Blurb title="Can I bring a date?" text="We unfortunately cannot accommodate additional guests. Due to limited capacity at the reception, we can only allow the people named on the RSVP." />
             <Blurb title="Note about the Ceremony & Mass **IMPORTANT**" text="Following the ceremony there will be a Nuptial Mass in the Extraordinary form of the Roman Rite. Prayers, responses, and hymns will be said in Latin. The church will have booklets for all attendees so that they may follow along with this beautiful form of the Catholic Liturgy. The expected length of the ceremony and Mass together is about two hours. We left time in between the ceremony and reception for travel since we know it will be a little longer of a drive! Thanks :)" />
-            <Blurb title="Additional note about the Mass **Communion**" text="Since the ceremony will be followed by Mass, Holy Communion will be available. Attendants are reminded that only practicing Catholics in a state of grace may recieve Communion. In the Extraordinary Form, communion is received on the tongue at the altar rail. To properly receive, please kneel at the rail (if able) and close your eyes before the priest comes to you." />
+            <Blurb title="Note about Holy Communion" text="Since the ceremony will be followed by Mass, Holy Communion will be available. Attendants are reminded that only practicing Catholics in a state of grace may recieve Communion. In the Extraordinary Form, communion is received on the tongue at the altar rail. To properly receive, please kneel at the rail (if able) and close your eyes before the priest comes to you. The communicant does not say Amen." />
             <Blurb title="Where can I park?" text="The church has a small parking lot off of Maple, and there is a parking garage on the corner of Hector and Robinson Alley. Try carpooling! Especially for the reception. While there is a parking garage near the church for the ceremony, the Trolley Barn has limited parking in their own lot and there is no close parking garage. The Trolley Barn has a little market alongside their event spaces, so the public will also be occupying the parking lots during the day." />
             <img className="map-img" src={maryParking} alt="Parking Map"/>
             <Blurb title="Is there a gift registry?" text="There is not a specific gift registry. Your presence at our wedding is a gift in itself, but if you feel inclined to give more, please contribute in the best way you see fit! Below is a little more about us if you're looking for something special." />
