@@ -27,12 +27,12 @@
 
 .btn--medium {
     padding: .75vw 2vw;
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 .btn--large {
     padding: 1.5vw 3.5vw;
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 .btn--medium:hover, .btn--large:hover{
