@@ -2,3 +2,14 @@
     width: 82%;
     margin: auto;    
 }
+
+.parents {
+    position: relative;
+  }
+  .parents div {
+    position: absolute;
+    z-index: 10;
+    bottom: 1vw;
+    padding: 0.5vw;
+    font-weight: bold;
+  }
