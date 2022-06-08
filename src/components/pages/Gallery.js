@@ -5,7 +5,7 @@ import React, { useState } from "react";
 
 //import { photos } from "../photos";
 import './Gallery.css'
-import photos from "./photos.ts";
+import photos from "../photos.ts";
 
 
 import PhotoAlbum from "react-photo-album";
@@ -33,16 +33,7 @@ const renderPhoto: RenderPhoto = ({
       style={{ ...style, width: "100%", padding: 0 }}
       {...restImageProps}
     />
-    <div
-      style={{
-        paddingTop: ".5vw",
-        paddingBottom: ".5vw",
-        whiteSpace: "normal",
-        fontSize: "1.5vw",
-        color: "white",
-        position: "absolute"
-      }}
-    >
+    <div>
       {layoutOptions.viewportWidth ? title : <>&nbsp;</>}
     </div>
   </div>
@@ -68,7 +59,7 @@ const Gallery = () => {
       <PhotoAlbum
         photos={photos}
         layout="rows"
-        targetRowHeight={200}
+        targetRowHeight={250}
         renderPhoto={renderPhoto}
         spacing="2"
         onClick={(event, photo, index) => setIndex(index)}

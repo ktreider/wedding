@@ -3,13 +3,26 @@
     margin: auto;    
 }
 
+.react-photo-album {
+  margin: auto;
+  width: var(--responsive--aligndefault-width); 
+}
 .parents {
     position: relative;
   }
   .parents div {
     position: absolute;
     z-index: 10;
-    bottom: 1vw;
+    bottom: .25vw;
     padding: 0.5vw;
     font-weight: bold;
+
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+    white-space: normal;
+    font-size: .75vw;
+    color: white;
+
+    background-color: rgba(0, 23, 90, 0.5);
+    width: 100%;
   }
