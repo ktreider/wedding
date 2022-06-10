@@ -75,19 +75,19 @@ const Details = () => {
             <div className="guys">
               <div className="person-img">
                   <img className="small-img" src={tony} alt='Tony'/>
-                  <Blurb title="Tony Redmond" subtitle="Best Man" text="Tony and Joseph grew up together, they know each other and play video games all the time. Of course he is the best man!" />
+                  <Blurb title="Tony Redmond" subtitle="Best Man" text="Tony is Joseph's brother, piano duet partner, co-conspirator, the drummer for their basement band, and a shoo-in for Best Man. Tony and Joseph think almost exactly the same way, the only difference being that Tony knows how to take advantage of this fact to win at board games, while Joseph doesn't." />
                 </div>
                 <div className="person-img">
                   <img className="small-img" src={JW} alt='Jacob W'/>
-                  <Blurb title="Jacob Wade" subtitle="Groomsman" text="Yes, he introduced the couple. He gets a seat at the table. Jacob and Joseph met at X, and were friends ever since!" />
+                  <Blurb title="Jacob Wade" subtitle="Groomsman" text="Jacob and Joseph grew up in the same circle of Catholic, homeschooling families. They attended the same field trips, parties, and the same youth group. Jacob and Joseph even lived together this past year. Jacob is the straight man to Joseph's comic, he has helped Joseph grow immensely in his Catholic Faith over the years, and Joseph owes him big time for introducing Katie!" />
                 </div>              
                 <div className="person-img">
                   <img className="small-img" src={JF} alt='Jacob F'/>
-                  <Blurb title="Jacob Fetter" subtitle="Groomsman" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+                  <Blurb title="Jacob Fetter" subtitle="Groomsman" text="Another Jacob! Joseph has known this Jacob since second grade, when Joseph's mother enrolled the family in the JMJ Homeschool Co-op. Throughout seven years of Latin classes (tuxtax!), hundreds of games of football and ultimate frisbee, miles of hikes, hours of D&D, and (more recently) a beer or two, Jacob has been an invaluable friend and role model for Joseph." />
                 </div>              
                 <div className="person-img">
                   <img className="small-img" src={mike} alt='Mike'/>
-                  <Blurb title="Mike Baran" subtitle="Groomsman" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+                  <Blurb title="Mike Baran" subtitle="Groomsman" text="Joseph has known Mike for longer than he can remember, although they really got to know each other during their first Steubenville Youth Conference, where they bonded over Axe bombing an odoriferous, all dudes dance party being held by the conference organizers in the lobby of the dorm they were staying in. Mike's comedic and caring personality inspires Joseph each and every day." />
                 </div>
             </div>{/*guys*/}
 
