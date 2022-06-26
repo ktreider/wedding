@@ -39,7 +39,7 @@
 }
 
 .people {
-    width: var(--responsive--aligndefault-width);
+    width: calc(1.15 * var(--responsive--aligndefault-width));
     margin: auto;
     display: flex;
     padding: 2vw 0;
@@ -50,8 +50,8 @@
     width: 50%;
 }
 .small-img {
-    height: 15vw;
-    width: 11.5vw;
+    height: 16vw;
+    width: 12.5vw;
     object-fit: cover;
 }
 .map-img {
@@ -60,10 +60,10 @@
 }
 .person-img {
     display: flex;
-    align-items: center;
+    padding: 1vw;
 }
 .person-img img {
-    padding: 1vw;
+    padding-right: 1vw;
 }
 
 
@@ -155,11 +155,13 @@
         padding: 2vw 0;
         text-align: center;
     }
-    .hotels, #misc, .people, .information {
+    .hotels, #misc {
         width: calc( .85 * var(--responsive--aligndefault-width));
     }
-    .people {
+    .people, .information {
         flex-direction: column;
+        width: calc( 1 * var(--responsive--aligndefault-width));
+
     }
     .girls, .guys {
         width: unset;
@@ -190,9 +192,12 @@
 	.hotels, #misc, .people, .information {
         width: calc( 1.05 * var(--responsive--aligndefault-width));
     }
+    .people {
+        width: calc( 1.25 * var(--responsive--aligndefault-width));
+    }
     .small-img {
-        height: 35vw;
-        width: 26.5vw;
+        height: 50vw;
+        width: 28vw;
     }
     .food {
         width: unset;

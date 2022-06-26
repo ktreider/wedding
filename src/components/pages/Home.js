@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroSection from '../HeroSection'
-import headerImg from './../../images/engagementphotos/Katie1804.jpg';
-import midImg from './../../images/engagementphotos/Katie2018.jpg';
+import headerImg from './../../images/engagementphotos/Katie1804.webp';
+import midImg from './../../images/engagementphotos/Katie2018.webp';
 import './Home.css'
 import { Button } from '../Button';
 

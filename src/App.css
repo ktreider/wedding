@@ -17,11 +17,11 @@
 
 /* change all font families here */
 .top > h1, .title > h1, .left-side > h3, .right-side > h3, h4 {
-  font-family: roboto-thinital;
+  font-family: roboto-thinital, sans-serif;
   font-weight: normal;
 }
 #button  {
-  font-family: roboto
+  font-family: roboto, sans-serif;
 }
 
 
@@ -103,8 +103,8 @@ h5, h6, h6 a {font-size: var(--global--font-size-xxs);}
 @media only screen and (min-width: 700px) {
 
 	:root {
-		--responsive--aligndefault-width: min(calc(115vw - 8 * var(--global--spacing-horizontal)), 999px); 
-		--responsive--alignwide-width: min(calc(115vw - 8 * var(--global--spacing-horizontal)), 999px); 
+		--responsive--aligndefault-width: min(calc(115vw - 8 * var(--global--spacing-horizontal)), 899px); 
+		--responsive--alignwide-width: min(calc(115vw - 8 * var(--global--spacing-horizontal)), 899px); 
 	}
 }
 @media only screen and (min-width: 1200px) {

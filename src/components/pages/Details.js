@@ -1,17 +1,17 @@
 import React from 'react'
 import HeroSection from '../HeroSection'
 import Blurb from '../Blurb'
-import headerImg from './../../images/engagementphotos/Katie1775.jpg';
+import headerImg from './../../images/engagementphotos/Katie1775.webp';
 import './Details.css'
 
-import eli from './../../images/peeps/eli.jpg';
-import GE from './../../images/peeps/GE.HEIC';
-import Geva from './../../images/peeps/Geva.heic';
-import JF from './../../images/peeps/JF.jpg';
-import JW from './../../images/peeps/JW.jpg';
-import mike from './../../images/peeps/mike.jpg';
-import shea from './../../images/peeps/shea.jpg';
-import tony from './../../images/peeps/tony.jpg';
+import eli from './../../images/peeps/eli.webp';
+import GE from './../../images/peeps/GE.webp';
+import Geva from './../../images/peeps/Geva.webp';
+import JF from './../../images/peeps/JF.webp';
+import JW from './../../images/peeps/JW.webp';
+import mike from './../../images/peeps/mike.webp';
+import shea from './../../images/peeps/shea.webp';
+import tony from './../../images/peeps/tony.webp';
 
 import maryParking from './../../images/maryParking3.png';
 
@@ -56,19 +56,19 @@ const Details = () => {
             <div className="girls">
               <div className="person-img">
                 <img className="small-img" src={eli} alt='Elizabeth'/>
-                <Blurb title="Elizabeth Morgan" subtitle="Maid of Honor"  text="Katie and Elizabeth lived together in their first years of college. Even after changing schools, they never fail to keep in contact and Elizabeth always sends Katie funny videos." />
+                <Blurb title="Elizabeth Morgan" subtitle="Maid of Honor"  text="Katie and Elizabeth lived together in their first years of college. Many nights were spent watching old Vine videos and running for ice cream at midnight. Even after changing schools, they never fail to keep in contact and Elizabeth always sends Katie funny videos. She has a loving personality Katie always aspires to have." />
               </div>
               <div className="person-img">
                 <img className="small-img" src={GE} alt='Genevieve'/>
-                <Blurb title="Genevieve Emanuel" subtitle="Bridesmaid" text="Genevieve and Katie also lived together in college. They love to sit and chat for hours about anything and everything." />
+                <Blurb title="Genevieve Emanuel" subtitle="Bridesmaid" text="Genevieve and Katie spent a lot of time together in their last two years of college, and hopefully many more to come! They love to sit and chat for hours about anything and everything. Genevive's kind nature never fails to show, even into her future as a religious coordinator and ambition to have a big family." />
               </div>              
               <div className="person-img">
                 <img className="small-img" src={Geva} alt='Geneva'/>
-                <Blurb title="Geneva Dardick" subtitle="Bridesmaid" text="Katie and Geneva met at their side hobby, dance class! After lots of classes and dance concerts together, Katie decided she basically lives at the Dardick's house." />
+                <Blurb title="Geneva Dardick" subtitle="Bridesmaid" text="Katie and Geneva met in early highschool at their former side hobby, dance class! After lots of ballet classes, dance recitals, ballet rehearsals, beach trips, and Dr Who TV show binges, Katie decided she basically lives at Geneva's home. Geneva's drive and determination inspires Katie on the daily" />
               </div>
               <div className="person-img">
                 <img className="small-img" src={shea} alt='Shea'/>
-                <Blurb title="Shea Elliott" subtitle="Bridesmaid" text="Shea met Katie at the beginning of their college careers. Shea enjoys taking Katie to her local library's booksale.  " />
+                <Blurb title="Shea Elliott" subtitle="Bridesmaid" text="This five foot, red haired gal - Shea - met Katie at the beginning of their college careers when she, Katie, and Elizabeth all sat at the same table in Sandellas Cafe after a long day of orientation. Shea enjoys taking Katie to her local library's booksale where Katie spends less than ten dollars on ten books!" />
               </div>
             </div> {/*girls*/}
 
