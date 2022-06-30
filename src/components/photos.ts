@@ -1,8 +1,5 @@
 const breakpoints = [1080, 640, 384, 256, 128, 96, 64, 48];
 
-//const unsplashLink = (id: string, width: number, height: number) =>
-//  `https://source.unsplash.com/${id}/${width}x${height}`;
-
 const phts = [
   {
     src: require("../images/k_j/firstHike.webp"),
@@ -18,7 +15,7 @@ const phts = [
   },
   {
     src: require("../images/k_j/delGap.webp"),
-    width: 6,
+    width: 7,
     height: 4,
     title: "The Delaware Water Gap. Mount Minsi"
   },
@@ -47,12 +44,6 @@ const phts = [
     title: "Ice hiking at Ricketts Glen with Valley to Summit"
   },
   {
-    src: require("../images/k_j/garKnots.webp"),
-    width: 3,
-    height: 4,
-    title: "Homemade garlic knots"
-  },
-  {
     src: require("../images/k_j/snowboarding.webp"),
     width: 3,
     height: 4,
@@ -64,18 +55,6 @@ const phts = [
     width: 5,
     height: 4,
     title: "Roxanne but its just Rocks. -Boulder Field"
-  },
-  {
-    src: require("../images/k_j/greenLane.webp"),
-    width: 3,
-    height: 4,
-    title: "Green Lane"
-  },
-  {
-    src: require("../images/k_j/lehighGap.webp"),
-    width: 5,
-    height: 4,
-    title: "Lehigh Gap (the otherside)"
   },
   {
     src: require("../images/k_j/grilledCheese.webp"),
@@ -97,32 +76,14 @@ const phts = [
   },
   {
     src: require("../images/engagementphotos/Katie1665.webp"),
-    width: 3,
-    height: 4,
+    width: 3.5,
+    height: 5,
     title: "Photo taken by: Yajaira Perez Photography"
   },
   {
     src: require("../images/engagementphotos/Katie1671.webp"),
     width: 4,
     height: 6,
-    title: "Photo taken by: Yajaira Perez Photography"
-  },
-  {
-    src: require("../images/engagementphotos/Katie1708.webp"),
-    width: 3,
-    height: 4,
-    title: "Photo taken by: Yajaira Perez Photography"
-  },
-  {
-    src: require("../images/engagementphotos/Katie1709.webp"),
-    width: 3,
-    height: 4,
-    title: "Photo taken by: Yajaira Perez Photography"
-  },
-  {
-    src: require("../images/engagementphotos/Katie1777.webp"),
-    width: 3,
-    height: 4,
     title: "Photo taken by: Yajaira Perez Photography"
   },
   {
@@ -133,12 +94,6 @@ const phts = [
   },
   {
     src: require("../images/engagementphotos/Katie1889.webp"),
-    width: 3,
-    height: 4,
-    title: "Photo taken by: Yajaira Perez Photography"
-  },
-  {
-    src: require("../images/engagementphotos/Katie2018.webp"),
     width: 3,
     height: 4,
     title: "Photo taken by: Yajaira Perez Photography"
@@ -172,12 +127,6 @@ const phts = [
     width: 3,
     height: 4,
     title: "Homemade Gnocchi"
-  },
-  {
-    src: require("../images/k_j/pumpkSeeds.webp"),
-    width: 3,
-    height: 4,
-    title: "Using our leftover pumpkin seeds"
   },
   {
     src: require("../images/k_j/starWars.webp"),
@@ -240,12 +189,6 @@ const phts = [
     height: 4,
     title: "Chasing sunsets on campus"
   },
-  {
-    src: require("../images/k_j/ziti.webp"),
-    width: 3,
-    height: 4,
-    title: "Katie waiting for the over to preheat for baked ziti"
-  }
 ];
 
 const photos = phts.map((photo) => ({

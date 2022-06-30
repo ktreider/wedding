@@ -56,7 +56,7 @@ const Details = () => {
             <div className="girls">
               <div className="person-img">
                 <img className="small-img" src={eli} alt='Elizabeth'/>
-                <Blurb title="Elizabeth Morgan" subtitle="Maid of Honor"  text="Katie and Elizabeth lived together in their first years of college. Many nights were spent watching old Vine videos and running for ice cream at midnight. Even after changing schools, they never fail to keep in contact and Elizabeth always sends Katie funny videos. She has a loving personality Katie always aspires to have." />
+                <Blurb title="Elizabeth Morgan" subtitle="Maid of Honor"  text="Katie and Elizabeth lived together in their first years of college. Many nights were spent watching old Vine videos and running around for ice cream in the middle of the night. Even after changing schools, they never fail to keep in contact and Elizabeth always sends Katie funny videos. She has a loving personality Katie always aspires to have." />
               </div>
               <div className="person-img">
                 <img className="small-img" src={GE} alt='Genevieve'/>
@@ -64,7 +64,7 @@ const Details = () => {
               </div>              
               <div className="person-img">
                 <img className="small-img" src={Geva} alt='Geneva'/>
-                <Blurb title="Geneva Dardick" subtitle="Bridesmaid" text="Katie and Geneva met in early highschool at their former side hobby, dance class! After lots of ballet classes, dance recitals, ballet rehearsals, beach trips, and Dr Who TV show binges, Katie decided she basically lives at Geneva's home. Geneva's drive and determination inspires Katie on the daily" />
+                <Blurb title="Geneva Dardick" subtitle="Bridesmaid" text="Katie and Geneva met in early highschool at their former side hobby, dance class! After lots of ballet classes, dance recitals, long rehearsals, broken pointe shoes, beach trips, and Dr Who TV show binges, Katie decided she basically lives at Geneva's home. Geneva's drive and determination inspires Katie on the daily." />
               </div>
               <div className="person-img">
                 <img className="small-img" src={shea} alt='Shea'/>
@@ -107,12 +107,8 @@ const Details = () => {
               <div className="sched-info menus">
                 <div id="food">
                   <h3>Food</h3>
-                  <p>Appetizers</p>
-                  <h4>Flatbread pizza slices</h4>
+                  <h4>Small flatbread pizza slices</h4>
                   <h4>Pita and Hummus</h4>
-                  
-                  <br/>
-                  <p>Main</p>
                   <h4>Pulled Pork</h4>
                   <h4>Beef Brisket</h4>
                   <h4>Greek Salad</h4>

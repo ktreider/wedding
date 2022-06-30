@@ -59,7 +59,7 @@ const Gallery = () => {
       <PhotoAlbum
         photos={photos}
         layout="rows"
-        targetRowHeight={250}
+        targetRowHeight={275}
         renderPhoto={renderPhoto}
         spacing="2"
         onClick={(event, photo, index) => setIndex(index)}

@@ -35,6 +35,7 @@
 	--global--font-size-m: 2vw;
 	--global--font-size-lg: 2.25vw;
 	--global--letter-spacing: normal;
+	--global-nav-links: 1.25vw;
 
     
 	/* Colors */
@@ -67,6 +68,7 @@ h5, h6, h6 a {font-size: var(--global--font-size-xxs);}
 		--global--font-size-s: 2.5vw;
 		--global--font-size-m: 3vw;
 		--global--font-size-lg: 3.25vw;
+		--global-nav-links: 2.25vw;
 	}
 }
 @media only screen and (max-width: 600px) {
@@ -77,6 +79,7 @@ h5, h6, h6 a {font-size: var(--global--font-size-xxs);}
 		--global--font-size-s: 3.5vw;
 		--global--font-size-m: 4vw;
 		--global--font-size-lg: 4.25vw;
+		--global-nav-links: 4.25vw;
 	}
 }
 
