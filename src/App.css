@@ -106,8 +106,8 @@ h5, h6, h6 a {font-size: var(--global--font-size-xxs);}
 @media only screen and (min-width: 700px) {
 
 	:root {
-		--responsive--aligndefault-width: min(calc(115vw - 8 * var(--global--spacing-horizontal)), 899px); 
-		--responsive--alignwide-width: min(calc(115vw - 8 * var(--global--spacing-horizontal)), 899px); 
+		--responsive--aligndefault-width: min(calc(115vw - 8 * var(--global--spacing-horizontal)), 1199px); 
+		--responsive--alignwide-width: min(calc(115vw - 8 * var(--global--spacing-horizontal)), 1199px); 
 	}
 }
 @media only screen and (min-width: 1200px) {
