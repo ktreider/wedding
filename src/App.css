@@ -29,7 +29,7 @@
 /* Variables */
 :root {
 	/* Font Size */
-	--global--font-size-xxs: .5vw;
+	--global--font-size-xxs: .75vw;
 	--global--font-size-xs: 1vw;
 	--global--font-size-s: 1.5vw;
 	--global--font-size-m: 2vw;

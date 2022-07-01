@@ -16,8 +16,8 @@ const Home = () => {
         <div className="meet">
           
           <div className="left-side">
-            <h3>Joseph</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <h3>Introductions</h3>
+            <p>Even though they didn't go to the same university, Katie and Joseph's numbers were exchanged by their friend Jacob during college. After establishing that it wasn't a prank (haha), they first saw each other at Jacob's get-together where Joseph brought pickle flavored chips and Katie showed up late. The next day, they went on a date at Green Lake Park and they've been together since. </p>
           </div> {/*left-side*/}
 
           <div className="mid-img">
@@ -26,8 +26,8 @@ const Home = () => {
           </div> {/*mid-img*/}
 
           <div className="right-side">
-            <h3>Katie</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <h3>Memories</h3>
+            <p>A few of Katie & Joseph's favorite memories of their time together include a multitude of hikes, nights cooking new recipes, Joseph showing Katie his favorite shows, and Katie always asking to do puzzles. <br/> Joseph proposed after a lovely morning of going to Mass and cooking brunch together, completely catching Katie off-guard.</p>
           </div>{/*right-side*/}
 
         </div> {/*meet*/}

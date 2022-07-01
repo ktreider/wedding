@@ -72,7 +72,7 @@
 
 .food {
     background-color: var(--global--color-green);
-    width: var(--responsive--aligndefault-width);
+    width: calc( .75 * var(--responsive--aligndefault-width));
     margin: auto;
     padding: 4vw 0;
 }
@@ -83,12 +83,14 @@
     text-align: left;
     padding-left: 1vw;
 }
-
+.sched-info.menus {
+    width: 75%;
+}
 .menus {
     display: flex;
 }
-#food {
-    width: 45%;
+#food, #bar {
+    width: 50%;
 }
 
 
@@ -192,7 +194,9 @@
         height: 40vw;
         width: 50vw;
     }
-
+    #bar {
+        width: 100%;
+    }
 }
 
 /*
