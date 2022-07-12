@@ -64,7 +64,7 @@ const Details = () => {
               </div>              
               <div className="person-img">
                 <img className="small-img" src={Geva} alt='Geneva' loading="lazy"/>
-                <Blurb title="Geneva Dardick" subtitle="Bridesmaid" text="Katie and Geneva met in early highschool at their former side hobby, dance class! After lots of ballet classes, dance recitals, long rehearsals, broken pointe shoes, beach trips, and binges of the TV show Dr Who, Katie decided she basically lives at Geneva's home. Geneva's drive and determination inspires Katie on the daily." />
+                <Blurb title="Geneva Robinette" subtitle="Bridesmaid" text="Katie and Geneva met in early highschool at their former side hobby, dance class! After lots of ballet classes, dance recitals, long rehearsals, broken pointe shoes, beach trips, and binges of the TV show Dr Who, Katie decided she basically lives at Geneva's home. Geneva's drive and determination inspires Katie on the daily." />
               </div>
               <div className="person-img">
                 <img className="small-img" src={shea} alt='Shea' loading="lazy"/>
